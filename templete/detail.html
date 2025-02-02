@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinflar</title>
+</head>
+<body>
+
+    <center><h1>O'quvchilar</h1></center>
+    {{form.name}}
+
+    <ul>
+        {% for student in form2 %}
+            <li>{{ student.first_name }}  -- {{ student.last_name }}</li>
+            
+        {% empty %}
+            <li>Bu sinfda hali o‘quvchilar yo‘q.</li>
+        {% endfor %}
+    </ul>
+
+    
+</body>
+</html>

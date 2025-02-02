@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kundalik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        .category-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 10px auto;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .btn-1 { background: #3498db; color: white; }
+        .btn-2 { background: #e74c3c; color: white; }
+        .btn-3 { background: #2ecc71; color: white; }
+        .btn-4 { background: #f39c12; color: white; }
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="category-container">
+        <h2>Maktab</h2>
+        <button class="btn btn-2">O'qituvchilar</button>
+        <button class="btn btn-1"><a href="{% url 'classes' %}">Sinflar</a></button>
+        <button class="btn btn-3">Yo'qlama</button>
+        <button class="btn btn-4">Fanlar</button>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bosh Sahifa </title>
+    
+
+    
+</head>
+<body>
+
+<center>
+    <h1> Assalomu alaykum </h1>
+</center>
+    
+
+<h2 class="left-align">Sinflar</h2>
+
+        {% for i in form %}
+        <h3><a href="{% url 'class_detail'  i.id %} ">{{ i }}</a></h3>
+        {% endfor %}
+   
+        
+
+
+
+
+    
+</body>
+</html> -->

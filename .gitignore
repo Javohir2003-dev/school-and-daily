@@ -1,0 +1,26 @@
+# Python bo'yicha umumiy fayllar
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django migration va media fayllar
+db.sqlite3
+/media/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Django static va cache fayllari
+/staticfiles/
+*.pid
+
+# VS Code, PyCharm va boshqa IDE fayllari
+.vscode/
+.idea/
+*.iml
